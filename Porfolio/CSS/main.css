@@ -1,0 +1,362 @@
+*,html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    font-weight: bold;
+    color: whitesmoke;
+    background-image: url(../img/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+/*    backup background*/
+    background-color: blueviolet;
+    padding: 10px 40px 100px 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+body{
+    font-size: 100%;
+   font-family: 'Kaushan Script',cursive;
+}
+h1{
+    /* 25px/16px */
+    font-size: 1.5625em;
+    
+}
+header h1{
+    margin-top: 100px;
+}
+
+h3{
+    color: blue!important;    
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: antiquewhite;
+}
+
+#main_nav li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 15px;
+}
+#main_nav li > a{
+    color: antiquewhite;
+}
+
+.link_button{
+    border:  1px solid #6ac4bc;
+    background-color: #6ac4bc;
+    color: #000;
+    padding: 5px;
+}
+.link_button:hover{
+    text-decoration:none;
+    border-color: #ccc;
+}
+#button_about{
+    display: inline-block;
+    margin-top: 20px;
+ 
+}
+#intro_me{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#intro_me img , #intro_me span{
+    vertical-align: middle;
+}
+#intro_me >img{
+    border-radius: 20px;
+}
+#intro_me span{
+    display: inline-block;
+}
+#my_service{
+    margin-bottom: 20px;
+}
+#my_service h2{
+    text-align: center;
+    background-image: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 130px;
+    font-size: 1.87em;
+    color: fuchsia;
+   line-height: 130px;
+}
+.project{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.project li{
+    list-style-type: circle;
+    list-style-position: inside;
+    text-align: left;
+}
+.project ul{
+    line-height: 25px;
+    
+}
+.project>img{
+    height: 150px;
+    vertical-align: middle;
+}
+.project>span{
+    display:inline-block;
+    vertical-align: middle;
+}
+
+footer{
+    text-align: center;
+}
+footer #google{
+ color: red;
+}
+footer #facebook{
+    color: blue;
+}
+footer #twitter{
+    color: aqua;
+}
+footer i{
+    padding-left: 10px;
+}
+footer i:hover{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+table{
+    border: 1px solid;
+    
+}
+#tbl_employee{
+                width: 70%;
+                margin: 30px auto;
+                text-align: left;
+                border: 1px solid blue;
+                border-spacing: 0px;
+            }
+            #tbl_employee thead tr th{
+                border-bottom: 2px solid blue;
+                color: blue;
+                padding: 5px;
+                text-align: center;
+            }
+            #tbl_employee  tr td {
+                padding: 5px;
+                width: 30%;
+            }
+           
+            #tbl_employee tbody tr:nth-child(even){
+                background-color: greenyellow;
+            }
+             #tbl_employee tbody tr:nth-child(odd){
+                background-color: whitesmoke;
+            }
+             #tbl_employee tbody tr:hover{
+                background-color: burlywood;
+                 cursor: pointer;
+            }
+            #tbl_employee tfoot tr{
+                text-align: center;
+                background-color: cornsilk;
+                color: royalblue;
+            }
+            #tbl_product{
+                width: 80%;
+                 margin: 30px auto;
+                text-align: left;
+                border: 0px;
+                border-spacing: 20px 0px;
+            }
+          
+            #tbl_product thead tr th{
+                color: blue;
+                border-bottom: 2px solid blue;
+                padding: 3px;
+            }
+              #tbl_product thead tr #main_title{
+                text-align: center;
+                border-color: white; 
+                  color: black;
+            }
+            #tbl_product tbody tr td{
+               padding: 5px;
+            }
+            #tbl_product tbody td:nth-child(odd) {
+                background-color: aquamarine;
+            }
+            #tbl_product tbody td:nth-child(even) {
+                background-color: cornflowerblue;
+            }
+            #tbl_product tfoot{
+                text-align: center;
+                background-color: bisque;
+                font-size: 1.1em;
+                line-height: 24px;
+            }
+
+/*<!--- Project --->*/
+
+
+#Main_info{
+    width: 75%;
+    float: left;
+}
+#Sub_info{
+    width: 25%;
+      float: left;
+}
+section{
+    content: '';
+    display: block;
+    clear:both;
+}
+#Sub_info li{
+    list-style: decimal;
+    list-style-position: inside;
+    padding: 5px;
+}
+.sub_table{
+    display: inline-block;
+    width: 485px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 8px;
+    border: 1px solid silver;
+}
+.sub_table img{
+    width: 200px;
+    height: 200px;
+    vertical-align: middle;
+}
+.sub_table span{
+      display:inline-block;
+    vertical-align: middle;
+    padding-left: 20px;
+    word-spacing: 1px;
+}
+#clear_float{
+    clear: both;
+}
+
+/*Format for contract page*/
+#contract_form {
+    width: 50%;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 12px #ccc;
+    position: fix;
+}
+fieldset{
+    border: none;
+}
+
+legend {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+label{
+    display: block;
+    margin-bottom: 8px;
+}
+.light{
+  display: inline-block;
+    margin-right: 15px;
+}
+input[type="text"],
+input[type="email"],
+input[type="url"],
+textarea,
+select{
+        border: none;
+    font-size: 16px;
+    margin: 0;
+    padding: 15px;
+    width: 100%;
+    background: #e8eeef;
+    margin-bottom: 30px;
+    outline: none;
+    
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    margin-bottom: 30px;
+}
+
+button{
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 1px solid #ebebeb;
+    cursor: pointer;
+}
+button[type="submit"]{
+    background-color: #4bc970;
+    color: white;
+}
+button[type="reset"]{
+    background-color: #ebebeb;
+    color: #3ac162;
+}
+legend span{
+   display: inline-block;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 50%;
+    background-color: #4bc970;
+    color: white;
+    margin-right: 5px;
+        
+}
+#contract_wrapper{
+    position: relative;
+}
+#call_me span{
+    border: 1px solid #ccc;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    background-color: #4bc970;
+    color: darkblue;
+    position: absolute;
+    top: -30px;
+    right: 20%;
+   
+}
+#left_fixed_ads{
+    position: fixed;
+    top: 50%;
+    border: 1px solid #ccc;
+    background-color: #ebebeb;
+    font-size: 20px;
+    cursor: pointer;
+}
+#google{
+    color: red;
+}
+#facebook{
+    color: blue;
+}
+#twitter{
+    color: aqua;
+}
